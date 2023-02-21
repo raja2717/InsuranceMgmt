@@ -1,0 +1,5 @@
+<p style="color:red;"><u><strong>DMV details:</strong></u></p>
+<p><strong>DL Number :</strong><input class="form-control" name="driverLicense" type="text" id="driverLicense" placeholder="DL number" readonly value="${DMV.driverLicense}"></p>
+<p><strong>status :</strong><input class="form-control" name="statusOfDL" type="text" id="status" placeholder="staus" readonly value="${DMV.statusOfDL}"></p>
+<p><strong>current year :</strong><input class="form-control" name="currentYear" type="text" id="type" placeholder="current year" readonly value="${DMV.currentYear}"></p>
+<p><strong>Number of illegal driving cases/challan :</strong><input class="form-control" name="noOfIllegalDrivingCasesinCurrentYear" type="text"  id="vehicleNumber" placeholder="number of challan" readonly value="${DMV.noOfIllegalDrivingCasesinCurrentYear}"></p>
